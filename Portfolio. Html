@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+            background: white;
+            border-radius: 8px;
+        }
+        img {
+            width: 120px;
+            border-radius: 50%;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Your Name</h1>
+    <img src="your-photo.jpg" alt="Profile Picture">
+    <p>Short bio about yourself</p>
+</header>
+
+<section>
+    <h2>Education</h2>
+    <p>Your education details here</p>
+</section>
+
+<section>
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Projects</h2>
+    <p>Project 1 description</p>
+    <p>Project 2 description</p>
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <form>
+        <input type="text" placeholder="Your Name"><br><br>
+        <input type="email" placeholder="Your Email"><br><br>
+        <textarea placeholder="Message"></textarea><br><br>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Your Name</p>
+</footer>
+
+</body>
+</html>
+
+OUTPUT :
+-----------------------------------------
+            Your Name
+          (Profile Image)
+     Short bio about yourself
+-----------------------------------------
+
+[ Education ]
+Your education details here
+
+[ Skills ]
+• HTML
+• CSS
+• JavaScript
+
+[ Projects ]
+Project 1 description  
+Project 2 description
+
+[ Contact ]
+[ Your Name   ]
+[ Your Email  ]
+[ Message     ]
+[ Send Button ]
+
+-----------------------------------------
+        © 2026 Your Name
+--------------------------------------
